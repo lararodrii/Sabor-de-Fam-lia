@@ -99,10 +99,6 @@ section div.box div.conteudo{
     height: 50vh;
   }
   
-  .card-img-top {
-    width: 400px;
-    height: 50vh;
-  }
   
 .blockquote h4 {
     font-family: 'Bebas Neue';
@@ -118,4 +114,21 @@ section div.box div.conteudo{
     line-height: 1.5; /* Altura da linha */
     text-align: center;
     font-size: 30px;
+}
+
+.card-title {
+    text-align: center;
+    margin: 150px auto 0 auto;
+}
+
+.card-body p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card-body h5 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 35px;
 }
