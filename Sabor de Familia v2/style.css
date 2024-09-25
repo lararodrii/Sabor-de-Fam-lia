@@ -94,41 +94,48 @@ section div.box div.conteudo{
     color: #333; /* Altere a cor se necessário */
   }
 
+/*Triade principal*/
   .d-block {
-    width: 600px;
-    height: 50vh;
+    width: 500px;
+    height: 40vh;
   }
   
+  .blockquote1{
+    margin: 50px auto 0 auto;
+    text-align: center;
+    font-size:x-large;
+  }
   
 .blockquote h4 {
     font-family: 'Bebas Neue';
-    font-size: 1.5em; /* Tamanho da fonte do título */
+    font-size: 1.0em; /* Tamanho da fonte do título */
     color: #000000; /* Cor do título */
     text-align: center;
     margin: 50px auto 0 auto;
-    font-size: 90px;
+    font-size: 40px;
 }
 
 .blockquote p {
     font-family: 'Times New Roman', sans-serif;
-    line-height: 1.5; /* Altura da linha */
+    line-height: 1.0; /* Altura da linha */
     text-align: center;
-    font-size: 30px;
+    font-size: small;
 }
 
 .card-title {
     text-align: center;
     margin: 150px auto 0 auto;
+    font-size: medium;
 }
 
 .card-body p {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .card-body h5 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 35px;
+    font-size: 24px;
 }
