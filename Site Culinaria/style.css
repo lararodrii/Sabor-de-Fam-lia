@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial';
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.navbar-brand {
+    font-family:'Times New Roman', Times, serif
+}
+
+
+section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+section div.background-section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+
+}
+
+section div.background-section video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center
+}
+
+section div.box{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), transparent);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+section div.box div.conteudo{
+    width: 80%;
+}
+
+section div.box img{
+    width: 100%;
+    min-width: 300px;
+}
+
+section div.box p{
+    color: white;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 1024px){
+    section div.box{
+        width: 100%;
+        padding: 2%;
+        background: rgba(0, 0, 0, 0.4);
+    
+    }
+}
+
+section div.box div.conteudo{
+    width: 100%;
+    text-align: center;
+}
+
+.custom-carousel {
+    width: 70%;   /* Ajusta a largura para 90% da tela */
+    height: 70vh; /* Ajusta a altura para 70% da altura da janela de visualização */
+    margin: 50px auto 0 auto; /* Adiciona um espaçamento superior de 50px */
+  }
+  
+  .custom-carousel img {
+    height: 100%; /* Garante que as imagens ocupem toda a altura do carrossel */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço de forma proporcional */
+  }
+  
+  .card-footer h3 {
+    font-family: Oswald; /* Altere para a fonte desejada */
+    font-size: 26px; /* Ajuste o tamanho da fonte */
+    color: #333; /* Altere a cor se necessário */
+  }
+
+  
+  .blockquote1{
+    margin: 50px auto 0 auto;
+    text-align: center;
+    font-size:x-large;
+  }
+  
+.blockquote h4 {
+    font-family: 'Bebas Neue';
+    font-size: 1.0em; /* Tamanho da fonte do título */
+    color: #000000; /* Cor do título */
+    text-align: center;
+    margin: 50px auto 0 auto;
+    font-size: 40px;
+}
+
+.blockquote1 p {
+    font-family: 'Bebas Neue';
+    line-height: 1.0; /* Altura da linha */
+    font-size: small;
+    text-align: left; /* Alinha o texto à esquerda */
+    margin: 50px auto 0 auto;
+}
+
+.card-title {
+    text-align: center;
+    margin: 150px auto 0 auto;
+    font-size: medium;
+    
+}
+
+.card-body p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left; /* Alinha o texto à esquerda */
+    font-size: 24px;
+}
+
+.card-body h5 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+.img-top {
+    margin-left: 330px;
+    width: 900px;  /* Define a largura da imagem */
+    height: 700px; /* Define a altura da imagem */
+}
