@@ -143,29 +143,28 @@ section div.box div.conteudo{
     height: 700px; /* Define a altura da imagem */
 }
 
-/*Trio de imagens*/
-.card {
+/*Trio de imagens personalizado*/
+.food-card {
     margin: 100px auto 0 auto;
     width: 1200px;
     height: 800px;
-    
 }
 
-.card img {
+.culinary-card img {
     width: 1000px;
     height: 700px;
-    margin: 100px auto 0 auto;
+    margin-left: 330px;
 }
 
-.card-content h2 {
+.culinary-card-content h2 {
     font-family: 'Bebas Neue';
     text-align: center;
-    
 }
 
-.card-content p {
+.culinary-card-content p {
     font-family: 'times', 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 20px;
-    
 }
+
+
