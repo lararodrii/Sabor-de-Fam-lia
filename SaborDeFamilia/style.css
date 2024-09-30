@@ -74,7 +74,7 @@ section div.box img {
 /* Morangos Flutuantes img */
 .img-top {
     width: 100%; /* Mantém a imagem responsiva */
-    max-width: 65%; /* Define o tamanho máximo como 80% da largura do contêiner */
+    max-width: 60%; /* Define o tamanho máximo como 80% da largura do contêiner */
     height: auto; /* Mantém a proporção da imagem */
     display: block; /* Exibe a imagem como um bloco para permitir a centralização */
     margin: 0 auto; /* Centraliza a imagem */
