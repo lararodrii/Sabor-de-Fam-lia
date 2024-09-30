@@ -156,7 +156,7 @@ section div.box img {
 
 /* Estilos de Texto (cards receitas) */
 .card-title {
-    text-align: center; /* Centraliza o texto do título */
+    text-align: justify; /* Justifica o texto */
     margin: 150px auto 0 auto; /* Centraliza e adiciona margem superior */
     font-size: medium; /* Tamanho da fonte do título */
 }
