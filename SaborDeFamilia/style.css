@@ -42,13 +42,9 @@ section div.box {
     justify-content: center; /* Centraliza os itens horizontalmente */
 }
 
-section div.box div.conteudo {
-    width: 80%; /* Define a largura do conteúdo */
-}
-
 section div.box img {
     width: 100%; /* Define a largura da imagem como 100% da caixa */
-    min-width: 300px; /* Define uma largura mínima para a imagem */
+    min-width: 900px; /* Define uma largura mínima para a imagem */
 }
 
 @media screen and (max-width: 1024px) {
