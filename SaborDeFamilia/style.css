@@ -8,6 +8,7 @@
 body {
     width: 100%; /* Define a largura do corpo */
     min-height: 100vh; /* Define a altura mínima do corpo como 100% da altura da janela */
+    overflow-x: hidden; /*Evita rolagem horizontal*/
 }
 
 /* Vídeo Principal */
