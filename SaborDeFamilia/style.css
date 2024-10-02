@@ -45,7 +45,7 @@ section div.box {
 
 section div.box img {
     width: 100%; /* Define a largura da imagem como 100% da caixa */
-    min-width: 900px; /* Define uma largura mínima para a imagem */
+    min-width: 500px; /* Define uma largura mínima para a imagem */
 }
 
 @media screen and (max-width: 1024px) {
